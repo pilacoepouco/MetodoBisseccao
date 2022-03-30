@@ -29,7 +29,7 @@ body{
 }
 #dados p input{
     display: inline-block;
-    width: 50%;
+    width: 30%;
 }
 .button {
     margin: 2%;
