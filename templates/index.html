@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Calculo Numerico</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Calculo Numerico | Bissecção">
-        <meta lang="pt-BR">
-        <link href="../static/css/style.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    </head>
-    <body>
 
-        <h1>Função Zero </h1>
-        <div id="dados">
-            <h2>Método da Bissecção</h2>
-            <form>
-              <p><label>F(x) =</label> <input> </p>
-              <p><label>Inicio =</label> <input> </p>
-              <p><label>Fim =</label> <input> </p>
-              <p><label>Precisão =</label> <input>  </p>
-            </form>
-        </div>
+<head>
+    <title>Calculo Numerico</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Calculo Numerico | Bissecção">
+    <meta lang="pt-BR">
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+</head>
 
-            <input class="button" type="button" value="Calcular">
+<body>
+
+    <h1>Função Zero </h1>
+    <div id="dados">
+        <h2>Método da Bissecção</h2>
+        <form action="/solution" method="get">
+            <p><label>F(x) =</label> <input> </p>
+            <p><label>Inicio =</label> <input> </p>
+            <p><label>Fim =</label> <input> </p>
+            <p><label>Precisão =</label> <input> </p>
+            <input class="button" type="submit" value="Calcular">
+        </form>
+    </div>
 
 
-    </body>
+
+</body>
+
 </html>
